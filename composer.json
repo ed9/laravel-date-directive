@@ -1,0 +1,30 @@
+{
+    "name": "ed9/laravel-date-directive",
+    "description": "Simplify the date & time handling when in need to show date & time to customer in their timezone.",
+    "type": "library",
+    "require": {
+        "pharaonic/laravel-readable": "1.0",
+        "illuminate/support": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ed9\\LaravelDateDirective\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edgars Kohs",
+            "email": "git@edgarskohs.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "laravel": {
+        "providers": [
+            "Ed9\\LaravelDateDirective\\LaravelDateDirectiveServiceProvider"
+        ],
+        "config": {
+            "app.timezone": "UTC"
+        }
+    }
+}
