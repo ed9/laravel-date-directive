@@ -42,7 +42,7 @@ class Handler
     {
         $this->setTimezone(config('date-time-directive.timezone', config('app.timezone', 'UTC')));
         $this->setUseSeconds(boolval(config('date-time-directive.useSeconds', false)));
-        $this->setDateTimeFormat(config('date-time-directive.string_format', 'Y-m-d H:i:s'));
+        $this->setInputDateTimeFormat(config('date-time-directive.string_format', 'Y-m-d H:i:s'));
         $this->set12HourFormat(config('date-time-directive.use_12_hour_clock', false));
     }
 
