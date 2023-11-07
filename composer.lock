@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75c8b956d407535a4b1073e66d6c2986",
+    "content-hash": "c07dd94183fd3bdb6ff50cc7eee29e9e",
     "packages": [
         {
             "name": "brick/math",
@@ -1886,21 +1886,24 @@
         },
         {
             "name": "pharaonic/laravel-readable",
-            "version": "1.0.0",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Pharaonic/laravel-readable.git",
-                "reference": "46e93eb2475c442d1c156066462a22f378f31a1e"
+                "reference": "cda54a05c6b0bc0ed8d740243a4c392d79f4621c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Pharaonic/laravel-readable/zipball/46e93eb2475c442d1c156066462a22f378f31a1e",
-                "reference": "46e93eb2475c442d1c156066462a22f378f31a1e",
+                "url": "https://api.github.com/repos/Pharaonic/laravel-readable/zipball/cda54a05c6b0bc0ed8d740243a4c392d79f4621c",
+                "reference": "cda54a05c6b0bc0ed8d740243a4c392d79f4621c",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": ">=6.0",
                 "php": ">=7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": ">=5.0"
             },
             "type": "library",
             "extra": {
@@ -1942,9 +1945,19 @@
             ],
             "support": {
                 "issues": "https://github.com/Pharaonic/laravel-readable/issues",
-                "source": "https://github.com/Pharaonic/laravel-readable/tree/1.0.0"
+                "source": "https://github.com/Pharaonic/laravel-readable/tree/1.0.5"
             },
-            "time": "2020-10-30T06:05:45+00:00"
+            "funding": [
+                {
+                    "url": "https://liberapay.com/Pharaonic",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://www.patreon.com/Pharaonic",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-02-14T09:56:07+00:00"
         },
         {
             "name": "phpoption/phpoption",

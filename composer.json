@@ -3,7 +3,7 @@
     "description": "Simplify the date & time handling when in need to show date & time to customer in their timezone.",
     "type": "library",
     "require": {
-        "pharaonic/laravel-readable": "1.0",
+        "pharaonic/laravel-readable": "^1.0",
         "illuminate/support": "*"
     },
     "license": "MIT",
