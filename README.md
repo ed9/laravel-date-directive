@@ -1,6 +1,12 @@
 # laravel-date-directive
 Simplify the date &amp; time handling when in need to show date &amp; time to customer in their timezone.
 
+# Install
+Just run
+```bash
+composer require ed9/laravel-date-directive
+```
+
 # Use it in Blade views
 When using Blade, pass your `Carbon` date objects to string versions of the format you configured within the package configuration to Blade directives in order to receive beautifully crafted date, time, and date-time output. 
 
