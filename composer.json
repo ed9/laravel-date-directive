@@ -19,12 +19,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "laravel": {
-        "providers": [
-            "Ed9\\LaravelDateDirective\\LaravelDateDirectiveServiceProvider"
-        ],
-        "config": {
-            "app.timezone": "UTC"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ed9\\LaravelDateDirective\\LaravelDateDirectiveServiceProvider"
+            ],
+            "config": {
+                "app.timezone": "UTC"
+            }
         }
     }
 }
